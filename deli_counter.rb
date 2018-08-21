@@ -23,7 +23,5 @@ def now_serving(line)
   else
     person_being_served = line.shift
     puts "Currently serving #{person_being_served}."
-    line(customers).each do |i, name|
-      puts "The line is currently: #{i + 1}. #{name}"
   end
 end
